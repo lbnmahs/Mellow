@@ -8,12 +8,12 @@
 }
 /* General container styling */
 body{
-  background-color: #040303;
+  background-color: #171717;
 }
 #app {
   width: 100vw;
   height: 100vh;
-  background: #040303;
+  background: #171717;
 
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@ form {
   max-width: 1280px;
   margin: 0 auto 30px auto;
   padding: 10px;
-  background: #2C3639;
+  background: #444444;
 
   display: flex;
   flex-direction: row;
@@ -70,7 +70,7 @@ button {
   cursor: pointer;
   padding: 2px 12px;
   border-radius: 10px;
-  background-color: #4E9F3D;
+  background-color: #DA0037;
   color: #fff;
 }
 
@@ -79,14 +79,13 @@ button {
   width: 100%;
   padding: 15px;
 }
-.user .chat {
-  background-color: #040303;
+.ai{
+  background-color: #444444;
 }
 .chat {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  background-color: #2C3639;
   display: flex;
   border-radius: 20px;
   flex-direction: row;
@@ -114,7 +113,7 @@ button {
 
   max-width: 100%;
   overflow-x: scroll;
-  white-space: pre-wrap; 
+  /* white-space: pre-wrap;  */
 
   -ms-overflow-style: none;
   scrollbar-width: none;
